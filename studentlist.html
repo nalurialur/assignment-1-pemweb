@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studentlist</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #11172A !important;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color:#599692;">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html" style="color:#599692;">Dashbor</a>
+          <a class="nav-link" href="#" style="color:#E7E9ED;;">Student List</a>
+      </ul>
+    </div>
+  </div>
+</nav>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">No</th>
+      <th scope="col">Name</th>
+      <th scope="col">Student ID</th>
+      <th scope="col">Study Program</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody class="table-group-divider">
+    <tr>
+      <th scope="row">1</th>
+      <td>Percy</td>
+      <td>99721</td>
+      <td>Informatic</td>
+      <td class="text-center">
+          <div class="d-inline-flex gap-1">
+            <a href="update.html?id=99721" class="btn btn-sm btn-primary">Update</a>
+            <button type="button" class="btn btn-sm btn-danger">Delete</button>
+          </div>
+        </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jasper</td>
+      <td>99724</td>
+      <td>Informatic</td>
+      <td class="text-center">
+          <div class="d-inline-flex gap-1">
+            <a href="update.html?id=99721" class="btn btn-sm btn-primary">Update</a>
+            <button type="button" class="btn btn-sm btn-danger">Delete</button>
+          </div>
+        </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Mario</td>
+      <td>99229</td>
+      <td>Informatic</td>
+      <td class="text-center">
+          <div class="d-inline-flex gap-1">
+            <a href="update.html?id=99721" class="btn btn-sm btn-primary">Update</a>
+            <button type="button" class="btn btn-sm btn-danger">Delete</button>
+          </div>
+        </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+
+</html>
