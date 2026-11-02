@@ -17,8 +17,12 @@ nav ul{
     font-weight: bold;
 }
 
+.bg-card{
+    margin: 10px;
+}
+
 .container{
-    padding: 20px 60px;
+    padding: 5px;
     background-color: #11172A;
 }
 /* 
@@ -43,9 +47,9 @@ nav ul{
 .course-card{
     justify-content: center;
     padding: 5px;
-    border: 2px solid #599692;
+    border: 2px solid #818f8e;
     font-weight: bold;
-    background-color: #E54982;
+    background-color: #ffffff;
     display: flex   ;
     gap: 0.5rem;
     flex-direction: column;
@@ -69,9 +73,14 @@ a{
 
 .readmore{
     display: inline-block;
-    background-color: #506585;
+    background-color: #818f8e;
     color:beige;
     text-decoration: none;
     padding: 12px 24px;
     border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #525552;
+  color: white;
 }
